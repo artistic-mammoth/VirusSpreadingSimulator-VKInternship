@@ -9,19 +9,45 @@
 /* Begin PBXBuildFile section */
 		C71584212A06915D006EA475 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C71584202A06915D006EA475 /* AppDelegate.swift */; };
 		C71584232A06915D006EA475 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C71584222A06915D006EA475 /* SceneDelegate.swift */; };
-		C71584252A06915D006EA475 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C71584242A06915D006EA475 /* ViewController.swift */; };
 		C715842A2A06915E006EA475 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C71584292A06915E006EA475 /* Assets.xcassets */; };
 		C715842D2A06915E006EA475 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C715842B2A06915E006EA475 /* LaunchScreen.storyboard */; };
+		C715843F2A069527006EA475 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C715843E2A069527006EA475 /* MainViewController.swift */; };
+		C71584412A06954E006EA475 /* SimulationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C71584402A06954E006EA475 /* SimulationViewController.swift */; };
+		C71584442A069888006EA475 /* ParameterSettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C71584432A069888006EA475 /* ParameterSettingView.swift */; };
+		C71584462A069AD9006EA475 /* UIView+ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = C71584452A069AD9006EA475 /* UIView+ext.swift */; };
+		C71584482A06AB85006EA475 /* UiViewController+ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = C71584472A06AB85006EA475 /* UiViewController+ext.swift */; };
+		C715844A2A06AD0D006EA475 /* String+ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = C71584492A06AD0D006EA475 /* String+ext.swift */; };
+		C715844C2A06BEAB006EA475 /* Human.swift in Sources */ = {isa = PBXBuildFile; fileRef = C715844B2A06BEAB006EA475 /* Human.swift */; };
+		C715844E2A06CB25006EA475 /* StatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C715844D2A06CB25006EA475 /* StatView.swift */; };
+		C71584502A06D5C3006EA475 /* SimulationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C715844F2A06D5C3006EA475 /* SimulationController.swift */; };
+		C71584562A06E8C9006EA475 /* HumanCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C71584552A06E8C9006EA475 /* HumanCollectionCell.swift */; };
+		C7A3591E2A0A1E3B00479DF2 /* SimulationParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7A3591D2A0A1E3B00479DF2 /* SimulationParameters.swift */; };
+		C7E6D6952A095B9700C6183A /* Resources.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E6D6942A095B9700C6183A /* Resources.swift */; };
+		C7E6D6972A095C1900C6183A /* UIColor+ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E6D6962A095C1900C6183A /* UIColor+ext.swift */; };
+		C7E6D6992A096B9B00C6183A /* HumansCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E6D6982A096B9B00C6183A /* HumansCollectionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C715841D2A06915D006EA475 /* VirusSpreadingSimulator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VirusSpreadingSimulator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C71584202A06915D006EA475 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C71584222A06915D006EA475 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C71584242A06915D006EA475 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C71584292A06915E006EA475 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C715842C2A06915E006EA475 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C715842E2A06915E006EA475 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C715843E2A069527006EA475 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		C71584402A06954E006EA475 /* SimulationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimulationViewController.swift; sourceTree = "<group>"; };
+		C71584432A069888006EA475 /* ParameterSettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParameterSettingView.swift; sourceTree = "<group>"; };
+		C71584452A069AD9006EA475 /* UIView+ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+ext.swift"; sourceTree = "<group>"; };
+		C71584472A06AB85006EA475 /* UiViewController+ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UiViewController+ext.swift"; sourceTree = "<group>"; };
+		C71584492A06AD0D006EA475 /* String+ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+ext.swift"; sourceTree = "<group>"; };
+		C715844B2A06BEAB006EA475 /* Human.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Human.swift; sourceTree = "<group>"; };
+		C715844D2A06CB25006EA475 /* StatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatView.swift; sourceTree = "<group>"; };
+		C715844F2A06D5C3006EA475 /* SimulationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimulationController.swift; sourceTree = "<group>"; };
+		C71584552A06E8C9006EA475 /* HumanCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HumanCollectionCell.swift; sourceTree = "<group>"; };
+		C7A3591D2A0A1E3B00479DF2 /* SimulationParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimulationParameters.swift; sourceTree = "<group>"; };
+		C7E6D6942A095B9700C6183A /* Resources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resources.swift; sourceTree = "<group>"; };
+		C7E6D6962A095C1900C6183A /* UIColor+ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+ext.swift"; sourceTree = "<group>"; };
+		C7E6D6982A096B9B00C6183A /* HumansCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HumansCollectionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +105,7 @@
 			isa = PBXGroup;
 			children = (
 				C71584292A06915E006EA475 /* Assets.xcassets */,
+				C7E6D6942A095B9700C6183A /* Resources.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -94,6 +121,10 @@
 		C71584382A069251006EA475 /* Extentions */ = {
 			isa = PBXGroup;
 			children = (
+				C71584452A069AD9006EA475 /* UIView+ext.swift */,
+				C71584472A06AB85006EA475 /* UiViewController+ext.swift */,
+				C71584492A06AD0D006EA475 /* String+ext.swift */,
+				C7E6D6962A095C1900C6183A /* UIColor+ext.swift */,
 			);
 			path = Extentions;
 			sourceTree = "<group>";
@@ -101,7 +132,9 @@
 		C71584392A06925C006EA475 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				C71584242A06915D006EA475 /* ViewController.swift */,
+				C715843E2A069527006EA475 /* MainViewController.swift */,
+				C71584402A06954E006EA475 /* SimulationViewController.swift */,
+				C715844F2A06D5C3006EA475 /* SimulationController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -109,6 +142,10 @@
 		C715843A2A06926C006EA475 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				C71584432A069888006EA475 /* ParameterSettingView.swift */,
+				C715844D2A06CB25006EA475 /* StatView.swift */,
+				C71584552A06E8C9006EA475 /* HumanCollectionCell.swift */,
+				C7E6D6982A096B9B00C6183A /* HumansCollectionView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -116,6 +153,8 @@
 		C715843C2A069295006EA475 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				C715844B2A06BEAB006EA475 /* Human.swift */,
+				C7A3591D2A0A1E3B00479DF2 /* SimulationParameters.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -190,9 +229,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C71584252A06915D006EA475 /* ViewController.swift in Sources */,
+				C71584462A069AD9006EA475 /* UIView+ext.swift in Sources */,
 				C71584212A06915D006EA475 /* AppDelegate.swift in Sources */,
+				C71584502A06D5C3006EA475 /* SimulationController.swift in Sources */,
+				C715844E2A06CB25006EA475 /* StatView.swift in Sources */,
+				C7E6D6952A095B9700C6183A /* Resources.swift in Sources */,
 				C71584232A06915D006EA475 /* SceneDelegate.swift in Sources */,
+				C71584412A06954E006EA475 /* SimulationViewController.swift in Sources */,
+				C7E6D6992A096B9B00C6183A /* HumansCollectionView.swift in Sources */,
+				C71584562A06E8C9006EA475 /* HumanCollectionCell.swift in Sources */,
+				C715844C2A06BEAB006EA475 /* Human.swift in Sources */,
+				C715843F2A069527006EA475 /* MainViewController.swift in Sources */,
+				C71584442A069888006EA475 /* ParameterSettingView.swift in Sources */,
+				C715844A2A06AD0D006EA475 /* String+ext.swift in Sources */,
+				C71584482A06AB85006EA475 /* UiViewController+ext.swift in Sources */,
+				C7A3591E2A0A1E3B00479DF2 /* SimulationParameters.swift in Sources */,
+				C7E6D6972A095C1900C6183A /* UIColor+ext.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -334,10 +386,14 @@
 				DEVELOPMENT_TEAM = YV94F8SKGT;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = VirusSpreadingSimulator/SupportingFiles/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Virus Simulator";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.simulation-games";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -364,10 +420,14 @@
 				DEVELOPMENT_TEAM = YV94F8SKGT;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = VirusSpreadingSimulator/SupportingFiles/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Virus Simulator";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.simulation-games";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
